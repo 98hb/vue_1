@@ -9,7 +9,7 @@
     </div>
     <!-- 下拉内容 -->
     <div class="container" v-show="isShow">
-      <slot></slot>
+      <slot>默认显示的内容</slot>
     </div>
   </div>
 </template>

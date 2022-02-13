@@ -12,6 +12,7 @@
         <p>洛阳亲友如相问，</p>
         <p>一片冰心在玉壶。</p>
       </Pannel>
+      <Pannel></Pannel>
     </div>
   </div>
 </template>
