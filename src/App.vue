@@ -10,6 +10,9 @@
     <hr />
     <h1>4.组件-具名插槽</h1>
     <UserSlot2></UserSlot2>
+    <hr />
+    <h1>5.组件-作用域插槽</h1>
+    <UserSlot3></UserSlot3>
   </div>
 </template>
 
@@ -18,12 +21,14 @@ import UseDynamic from "./views/01_UseDynamic.vue";
 import UseDynamic2 from "./views/02_UseDynamic.vue";
 import UserSlot from "./views/03_UserSlot.vue";
 import UserSlot2 from "./views/04_UserSlot.vue";
+import UserSlot3 from "./views/05_UserSlot.vue";
 export default {
   components: {
     UseDynamic,
     UseDynamic2,
     UserSlot,
     UserSlot2,
+    UserSlot3,
   },
 };
 </script>
