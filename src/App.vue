@@ -16,6 +16,9 @@
     <hr />
     <h1>6.组件-作用域插槽使用场景</h1>
     <UseTable></UseTable>
+    <hr />
+    <h1>7.组件-自定义标签</h1>
+    <UseDirective></UseDirective>
   </div>
 </template>
 
@@ -26,6 +29,7 @@ import UserSlot from "./views/03_UserSlot.vue";
 import UserSlot2 from "./views/04_UserSlot.vue";
 import UserSlot3 from "./views/05_UserSlot.vue";
 import UseTable from "./views/06_UseTable.vue";
+import UseDirective from "./views/07_UseDirective.vue";
 export default {
   components: {
     UseDynamic,
@@ -34,6 +38,7 @@ export default {
     UserSlot2,
     UserSlot3,
     UseTable,
+    UseDirective,
   },
 };
 </script>
